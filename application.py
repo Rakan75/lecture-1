@@ -1,6 +1,6 @@
-from flask.app import flask
+from flask.app import Flask
 
-APP=flask(__name__)
+APP=Flask(__name__)
 
 @app.rout("/")
 def index():return "hello world!"
